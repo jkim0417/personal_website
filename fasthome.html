@@ -1,6 +1,7 @@
 <!--/Jihee Kim/-->
 <!--/jiheek1@andrew.cmu.edu/-->
 
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -21,7 +22,7 @@
     <!--indicate which page is the current page that the user is on -->
     <ul>
       <li>
-        <a class="currentpage" href="index.html">HOME</a>
+        <a href="index.html">HOME</a>
       </li>
       <li>
         <a href="traditionalhome.html">TRADITIONAL</a>
@@ -30,7 +31,7 @@
         <a href="fusionhome.html">FUSION</a>
       </li>
       <li>
-        <a href="fasthome.html">FAST</a>
+        <a class="currentpage" href="fasthome.html">FAST</a>
       </li>
       <li>
         <a href="desserthome.html">DESSERT</a>
@@ -49,10 +50,9 @@
 
   <!--add header and center it-->
 
-  <h1 class= "center-text"> SEOUL FOOD </h1>
-  <p class= "center-text2"> learn quick facts about different types of Korean foods
-                            and the most popular dish from each category!</p>
-
+    <h1 class= "center-text"> FAST FOODS </h1>
+    <p class= "center-text2"> check out quick meals that you could easily get at
+                              the convenience store!</p>
 
   <!--create a container that spans the middle 90% of the canvas
    and implement row and columns within that container. have 4 columns in one row
@@ -60,63 +60,27 @@
    on the screen size-->
 
   <!--make the image clickable links to individual recipes-->
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col-sm-12 col-md-6 col-lg-3">
-      <h3> TRADITIONAL FOOD </h3>
-      <div class="recipeimage">
-        <a href="bibimbaprecipe.html">
-          <img src="images/bibimbap.jpg" alt="Bibimbap"> </img>
-        </a>
-      </div>
-        <p style="font-family: Economica">
-          --> traditional Korean food is all about nutritional balance.
-          many traditional dishes are plant-based, as well
-        </p>
-      </div>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-12 col-md-6 col-lg-3">
+        <h3> CONVENIENCE STORE MEAL BOX </h3>
+        <h5> quick packaged meals </h5>
 
-
-      <div class="col-sm-12 col-md-6 col-lg-3">
-      <h3> FUSION FOOD </h3>
-      <div class="recipeimage">
-        <a href="carbonaratteokbokkirecipe.html">
-          <img src="images/carbonaratteokbokki.jpg" alt="Carbonara Tteokbokki"> </img>
-        </a>
+        <div class="recipeimage">
+          <a href="boxedlunchrecipe.html">
+            <img src="images/packagedfood.jpg" alt="Packaged Meals"> </img>
+          </a>
+        </div>
+          <ul class="list-group list-group-flush" style="font-family: Economica">
+            <li></li>
+            <li class="list-group-item"> contains meat? yes </li>
+            <li class="list-group-item"> spicy? no </li>
+            <li class="list-group-item"> prep time: 3 mins</li>
+            <li class="list-group-item"> sweet or savory? savory</li>
+          </ul>
+        </div>
       </div>
-        <p style="font-family: Economica">
-          --> a lot of people experiment and add a western twist to traditional korean
-          food
-        </p>
     </div>
-
-    <div class="col-sm-12 col-md-6 col-lg-3">
-    <h3> FAST FOOD </h3>
-    <div class="recipeimage">
-      <a href="boxedlunchrecipe.html">
-        <img src="images/packagedfood.jpg" alt="boxed convenience store meals"> </img>
-      </a>
-    </div>
-      <p style="font-family: Economica">
-        --> instant foods are quite popular in Korea and the quality of instant food
-        items, such as boxed meals that you can find at convenience stores are pretty
-        impressive
-      </p>
-  </div>
-
-    <div class="col-sm-12 col-md-6 col-lg-3">
-    <h3> DESSERT </h3>
-    <div class="recipeimage">
-      <a href="tteokrecipe.html">
-        <img src="images/tteok.jpg" alt="Traditional Rice Cakes"> </img>
-      </a>>
-      <p style="font-family: Economica">
-        --> dessert culture is big in korea, and traditional dessert cafe's have
-        become extremely popular to koreans and foreigners
-      </p>
-  </div>
-  </div>
-</div>
-
 
 
 </br> <!--add break-->
@@ -135,9 +99,6 @@
       </div>
     </div>
   </footer>
-
-
-  <script type="text/javascript">
 
 </body>
 </html>
